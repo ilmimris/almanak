@@ -5,6 +5,7 @@ import { KonstantaComponent } from './contents/lain/konstanta/konstanta.componen
 import { ReferensiComponent } from './contents/lain/referensi/referensi.component';
 import { GlosariumComponent } from './contents/lain/glosarium/glosarium.component';
 import { LainComponent } from './contents/lain/lain.component';
+import { PagenotfoundComponent } from './templates/pagenotfound/pagenotfound.component';
 
 export const routes: Routes = [
     {
@@ -35,6 +36,10 @@ export const routes: Routes = [
         path: '',
         loadChildren: 'app/contents/lain/lain.module#LainModule'
     },
+    {
+        path: '**',
+        component: PagenotfoundComponent
+    }
 ];
 
 // @NgModule({

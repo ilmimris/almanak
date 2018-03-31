@@ -17,13 +17,17 @@ import { KonstantaComponent } from './contents/lain/konstanta/konstanta.componen
 import { GlosariumComponent } from './contents/lain/glosarium/glosarium.component';
 import { ReferensiComponent } from './contents/lain/referensi/referensi.component';
 import { RouterModule } from '@angular/router';
+import { FooterComponent } from './templates/footer/footer.component';
+import { PagenotfoundComponent } from './templates/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
     CoursesListComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
