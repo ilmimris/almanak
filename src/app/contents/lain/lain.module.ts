@@ -10,12 +10,8 @@ import { LainComponent } from './lain.component';
 @NgModule({
   imports: [
     CommonModule,
-    LainRoutingModule,
-    LainComponent,
-    KonstantaComponent,
-    GlosariumComponent,
-    ReferensiComponent
+    LainRoutingModule
   ],
-  declarations: [KonstantaComponent, GlosariumComponent, ReferensiComponent, LainComponent]
+  declarations: [LainComponent, KonstantaComponent, GlosariumComponent, ReferensiComponent, LainComponent]
 })
 export class LainModule { }
